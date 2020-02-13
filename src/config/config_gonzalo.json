@@ -1,0 +1,6 @@
+{
+    "base_path": "",
+    "logging_path": "logs",
+    "data_path": "data",
+    "log_name": "ninja_project"
+  }
