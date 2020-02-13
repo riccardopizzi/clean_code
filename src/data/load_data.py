@@ -54,11 +54,11 @@ def get_game_stats_year(year, game_ids_path, game_stats_path, data_path):
 
             game_stats_list.append(game_stats)
 
-    file_name = f'{game_id}.json'
-    with open(file_name, "w") as fp:
-        json.dump(game_stats_list, fp)
+        file_name = f'{game_id}.json'
+        with open(file_name, "w") as fp:
+            json.dump(game_stats_list, fp)
 
-    return game_stats_list
+        return game_stats_list
 
 
 get_game_stats_year(2018, game_ids_path, game_stats_path, data_path)
