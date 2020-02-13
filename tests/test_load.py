@@ -10,7 +10,7 @@ from src.data.processing import (
 
 class TestLoad(unittest.TestCase):
     def test_load_games(self):
-        games = load_games(year=2019)
+        games = load_games(year=2019 )
         self.assertIsInstance(games, pd.DataFrame)
 
     def test_expand(self):
